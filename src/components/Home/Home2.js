@@ -26,25 +26,24 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I'm a Full Stack Developer. I love to create simple yet beautiful
-              applications with great user experience.
+              I am a computer science engineer. I like to improve my problem
+              solving skills.
               <br />
-              <br />I am fluent in classics like
+              <br />I have developed projects in
               <i>
-                <b className="purple"> Java and Javascript. </b>
+                <b className="purple"> React, Node and Java. </b>
               </i>
               <br />
               <br />
-              My fields of Interest are understanding &nbsp;
+              My fields of Interest are &nbsp;
               <i>
-                <b className="purple">Data Structures and Algorithms </b> and
-                also in areas related to{" "}
-                <b className="purple">Web Development</b>
+                <b className="purple">Data Structures and Algorithms </b>
+                and <b className="purple">Application Development</b>
               </i>
               <br />
-              <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">React.js and Node.js</b>
+              <br />I am intereted in challenging projects that aim to solve
+              real world problems
+              {/* <b className="purple">React.js and Node.js</b> */}
               {/*and
               <i>
                 <b className="purple">

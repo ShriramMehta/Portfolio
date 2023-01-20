@@ -2,12 +2,14 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import amazon from "../../Assets/Projects/amazon.png";
+import ayurClinic from "../../Assets/Projects/ayurClinic.png";
+import memgen from "../../Assets/Projects/memgen.png";
+import wanderers from "../../Assets/Projects/Wanderers.png";
+import task from "../../Assets/Projects/task.png";
+import tenzies from "../../Assets/Projects/tenzies.png";
+import whatsapp from "../../Assets/Projects/whatsapp.png";
+import learn from "../../Assets/Projects/learn.png";
 
 function Projects() {
   return (
@@ -23,68 +25,93 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={wanderers}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Wanderers"
+              description="Wanderers is a social media application developed in MERN stack for travel lovers.
+              Key Features: Recommendation, React Redux, Pagination, Google Authentication, Likes and Comments"
+              ghLink="https://github.com/ShriramMehta/ShriSocialMedia"
+              demoLink="https://shri-wanderers.netlify.app/posts"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={amazon}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Amazon"
+              description="Developed a clone of e-commerce website Amazon. Added Payment Gateaway and Firebase Authentication. Used Material UI for making the application responsive"
+              ghLink="https://github.com/ShriramMehta/amazon-frontend"
+              demoLink="https://amazon-clone-shri.netlify.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={ayurClinic}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="AyurClinic"
+              description="A Single page web app with dashboard where people can pick the date and time and fix an appointment. A doctor can review his appointments and prescribe medicine to a Patient from his dashboard.
+              Features :
+              Online appointment making,
+              Patients Database,
+              Review appointments,
+              Prescribe medicine for each patient"
+              ghLink="https://github.com/ShriramMehta/ayurClinic"
+              demoLink="https://ayur-clinic.netlify.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={tenzies}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Tenzies Game"
+              description="Super cool number rolling Tenzies Game built with React.js. It allows you to roll the button and select the number of your choice to win the Game!"
+              ghLink="https://github.com/ShriramMehta/Tenzies"
+              demoLink="https://tenzies-game-shri.netlify.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={task}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Task Tracker"
+              description="Built a task tracker with React that allows to add, update, and delete tasks."
+              ghLink="https://github.com/ShriramMehta/task-tracker"
+              demoLink="https://task-tracker-shri.netlify.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={whatsapp}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Whatsapp Clone"
+              description="WhatsApp Clone provides an in-depth view of implementation on how to create a full-stack and hybrid web application from scratch using ReactJs, NodeJs, ExpressJs, MongoDB, Socket.io, Heroku & Firebase Deployment."
+              ghLink="https://github.com/ShriramMehta/whatsapp-mern"
+              demoLink="https://whatsapp-mern-shri.netlify.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={memgen}
+              isBlog={false}
+              title="Meme Genartor"
+              description="A simple single page application built using react basics that uses API integraion to fetch memes and display"
+              ghLink="https://github.com/ShriramMehta/meme-generator"
+              demoLink="https://shri-meme-generator.netlify.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={learn}
+              isBlog={false}
+              title="LEARN"
+              description="A responsive website developed in HTML, CSS and Javascript. Focused on CSS for creating the website responsive. Created smooth scroll effect."
+              ghLink="https://github.com/ShriramMehta/Learn"
+              demoLink="https://shri-learn.netlify.app/"
             />
           </Col>
         </Row>
